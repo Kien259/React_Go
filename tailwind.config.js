@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}","./index.html"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -18,10 +18,11 @@ export default {
         xl: "1280px",
       },
       colors: {
-        bodyColor: "#0B1120",
+        navColor: "#ff008d",
+        bodyColor: "#1c1c1c",
         lightText: "#c4cfde",
-        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#ff014f",
+        designColor: "#8900ff",
+        titleColor: "#ffffff",
       },
       boxShadow: {
         shadowOne: "10px 10px 19px #030712, -10px -10px 19px #0f172a",
